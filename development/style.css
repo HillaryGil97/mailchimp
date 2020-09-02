@@ -1,6 +1,12 @@
-body {
-    background: #fff;
-    line-height: 1.35;
-    color: #403b3b;
-    font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
+.ajustes-bg {
+  background-color: #C5DBF2;
 }
+
+.border-none {
+  border: none;
+}
+
+.ajustes-nv {
+  padding: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
