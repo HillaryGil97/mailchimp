@@ -20,10 +20,30 @@
 
 .log-in {
   padding: 0.5rem 2rem;
+  border-radius: 0;
+  color: #007c77;
+  border-color: #007c77;
+}
+
+.log-in:hover {
+  color: #003a41;
+  border-color: #003a41;
+  background-color: #C5DBF2;
 }
 
 .sign-up {
   padding: 0.5rem;
+}
+
+.btn-success {
+  border-radius: 0;
+  background-color: #007c77;
+  border-color: #007c77;
+}
+
+.btn-success:hover {
+  background-color: #003a41;
+  border-color: #003a41;
 }
 
 .ajustes-rw1 {

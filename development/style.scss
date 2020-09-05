@@ -26,10 +26,28 @@ $verdefuerte:#003a41;
 
 .log-in {
     padding: 0.5rem 2rem;
+    border-radius: 0;
+    color: $verde;
+    border-color: $verde;
+    &:hover{
+        color: $verdefuerte;
+        border-color: $verdefuerte;
+        background-color: $fondo;
+    }
 }
 
 .sign-up {
     padding: 0.5rem;
+}
+
+.btn-success {
+    border-radius: 0;
+    background-color: $verde;
+    border-color: $verde;
+    &:hover{
+        background-color: $verdefuerte;
+        border-color: $verdefuerte;
+    }
 }
 
 .ajustes-rw1 {
