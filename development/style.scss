@@ -1,5 +1,9 @@
+$amarillo:#ffe01b;
+$verde: #007c77;
+$fondo:#C5DBF2;
+
 .ajustes-bg {
-    background-color: #C5DBF2;
+    background-color: $fondo;
 }
 
 .border-none {
@@ -58,3 +62,4 @@
     font-weight: 300;
     line-height: 1.4;
 }
+
