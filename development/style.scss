@@ -1,6 +1,8 @@
 $amarillo:#ffe01b;
 $verde: #007c77;
 $fondo:#C5DBF2;
+$verdefuerte:#003a41;
+
 
 .ajustes-bg {
     background-color: $fondo;
@@ -61,5 +63,26 @@ $fondo:#C5DBF2;
     font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
     font-weight: 300;
     line-height: 1.4;
+    a{
+        color: $verde;
+        &:hover{
+            color: $verdefuerte;
+        }
+    }
+}
+
+.btn-primary{
+    border-radius: 0;
+    color: $verde;
+    border-color: $verde;
+    background-color: white;
+    &:hover{
+        color: $verdefuerte;
+        border-color: $verdefuerte;
+        background-color: white;
+    }
+}
+.card{
+    border: none;
 }
 

@@ -58,4 +58,29 @@
   font-weight: 300;
   line-height: 1.4;
 }
+
+.parraph a {
+  color: #007c77;
+}
+
+.parraph a:hover {
+  color: #003a41;
+}
+
+.btn-primary {
+  border-radius: 0;
+  color: #007c77;
+  border-color: #007c77;
+  background-color: white;
+}
+
+.btn-primary:hover {
+  color: #003a41;
+  border-color: #003a41;
+  background-color: white;
+}
+
+.card {
+  border: none;
+}
 /*# sourceMappingURL=style.css.map */
