@@ -3,10 +3,10 @@ $verde: #007c77;
 $fondo:#C5DBF2;
 $verdefuerte:#003a41;
 
-nav{
-    position: -webkit-sticky; /* Safari */
+div#menu{ 
     position: sticky;
-    top: 0;
+    top:0;
+    z-index: 1;
 }
 
 .ajustes-bg {
