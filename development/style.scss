@@ -3,6 +3,11 @@ $verde: #007c77;
 $fondo:#C5DBF2;
 $verdefuerte:#003a41;
 
+nav{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
 
 .ajustes-bg {
     background-color: $fondo;
